@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <script defer src="scripts.js"></script>
+    <title>Ritmos y Cantantes de América Latina</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Teko&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Teko&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <header>
+        <img src="img/Mapa de América Latina.png" alt="Mapa de América Latina" class="header-img">
+        <h1>Ritmos y Cantantes de América Latina</h1>
+    </header>
+    <nav>
+
+        <div class="barra-pesquisa">
+            <input type="text" class="input-pesquisa" placeholder="Pesquisar...">
+            <button class="botao-pesquisa" onclick="buscar()">Buscar</button>
+        </div>
+    
+        <ul>
+            <li><a href="#reggaeton">Reggaetón</a></li>
+            <li><a href="#cumbia">Cumbia</a></li>
+            <li><a href="#banda">Banda Ráfaga</a></li>
+            <li><a href="#tango">Tango</a></li>
+            <li><a href="#sobrenosotros">Sobre Nosotros</a></li>
+        </ul>
+
+        <div class='carroussel'>
+            <div class='imagens'>
+                <img src='istockphoto-1336216522-612x612.jpg' alt='Imagem 1' class='imagem'>
+                <img src='g3NRnqkjKXEVCzhuG7tquR-320-80.jpg' alt='Imagem 2' class='imagem'>
+                <img src='bandeira-colombia.webp' alt='Imagem 3' class='imagem'>
+                <img src='istockphoto-1413240027-640x640.jpg' alt='Imagem 4' class='imagem'>
+                <img src='360_F_107449329_XU4V2Q532Us81EAU5OG255aghqmVtdTH.jpg' alt='Imagem 5' class='imagem'>
+                <img src='gettyimages-1340973112-640x640.jpg' alt='Imagem 6' class='imagem'>
+            </div>
+            <button class='botao botao-esquerda' onclick='moverEsquerda()'>❮</button>
+        <button class='botao botao-direita' onclick='moverDireita()'>❯</button>
+        </div>
+    
+    
+    </nav>
+
+    <main>
+        <section id="reggaeton">
+            <h2>Reggaetón</h2>
+            <p>
+                El reggaetón es un género musical que fusiona ritmos caribeños como el reggae y el dancehall con influencias del hip-hop, la música electrónica y el rap. Nació en Puerto Rico en los años 90 y rápidamente se expandió por América Latina y el resto del mundo. Su estilo se caracteriza por un ritmo pegajoso,
+                letras directas y a menudo sensuales, que abordan temas de amor, fiesta y vida nocturna.
+                Artistas como Daddy Yankee, Don Omar, Wisin & Yandel y Bad Bunny han sido figuras clave en su popularización, llevando el
+                reggaetón a las listas internacionales y a grandes escenarios. A pesar de las críticas por su contenido explícito o controvertido, el reggaetón sigue siendo uno de los géneros más influyentes en la música global, con una gran base de seguidores y una continua 
+                evolución que incorpora nuevos sonidos y colaboraciones con otros géneros como el pop, el trap y la música electrónica.
+                Hoy en día, el reggaetón no solo domina las emisoras de radio y las plataformas de streaming, sino que también ha dejado una huella importante en la cultura pop, la moda y el baile.
+
+
+
+
+            </p>
+        </section>
+
+        <section id="shakira">
+            <h2>Shakira</h2>
+            <img width="300px" heigth="300px" src="img/Foto de Shakira.jpg" alt="Foto de Shakira">
+            <p>
+                Shakira es una cantante, compositora, bailarina y multiinstrumentista colombiana. La artista compone canciones de pop latino, pop, rock and roll y reggaetón.
+                "Waka Waka (Esto es África)" se convirtió en el tema mundialista más vendido de todos los tiempos.
+                Además de su carrera musical, Shakira fue entrenadora en las temporadas 4 y 6 de "The Voice" en 2013 y 2014.
+            </p>
+        </section>
+
+
+<div>
+        <section id="cumbia">
+            <h2>Cumbia</h2>
+            <img width="300px" heigth="300px" src="img/Bailarines de Cumbia.jpg" alt="Bailarines de Cumbia">
+            <p>
+                Se originó alrededor del siglo XVIII en Colombia y tiene algunas variaciones, como la cumbia mexicana, argentina y peruana.
+                Combinando tambores africanos, melodías y danzas indígenas, la cumbia es considerada la reina de los ritmos afrocaribeños.
+            </p>
+        </section>
+
+        <section id="banda">
+            <h2>Banda Ráfaga</h2>
+            <img width="300px" heigth="300px" src="img/Banda Ráfaga.png" alt="Banda Ráfaga">
+            <p>
+                Es una banda argentina de cumbia que fue formada en el año 1994. Actualmente, este grupo musical volvió con su formación original.
+                Su música, cuyas letras suelen tratar sobre el amor y el desamor, fue ideada por el tecladista argentino Marcos Bustamante,
+                quien compuso íntegramente el primer disco de la banda. Al poco tiempo, invitó al destacado cantante argentino Antonio Ríos
+                para financiar el primer trabajo discográfico de la futura banda.
+            </p>
+        </section>
+
+        <section>
+        <h2>Curiosidades</h2>
+
+        <p>
+            Nombre de la Banda: Se eligió el nombre "Ráfaga" porque es una
+            palabra que evoca velocidad y energía, reflejando el estilo vibrante de cumbia que representa la banda.
+            Influencia Rock: Antes de dedicarse a la cumbia, algunos integrantes de la banda tuvieron
+            una influencia rock y pop, lo que terminó reflejándose en su estilo musical.
+            Colaboraciones inusuales: A lo largo de los años, Ráfaga ha colaborado con artistas de otros géneros, incluidos
+            el pop y el rock, ampliando su audiencia y experimentando con nuevos sonidos.
+        </p>
+    </section>
+</div>
+
+    <section id="tango">
+        <h2>Tango</h2>
+
+        <img width="300px" heigth="300px" src="img/dancarinos-de-tango-casal-dancando-tango-ilustracao-em-vetor-estilo-simples_787461-457.avif" alt="Imagens de pessoas dançando tango">
+
+        <p>
+            El tango es un baile/ritmo originario del siglo XIX, proveniente de
+            Buenos Aires, Argentina, y también de Montevideo, Uruguay.
+            La danza es realizada por hombres y mujeres, y generalmente tiene
+            una gran carga dramática y una coreografía compleja.
+            Los instrumentos utilizados incluyen guitarra, flauta, violín y también el bandoneón (la izquierda).
+        </p>
+    </section>
+
+<div class="francisco">
+    <section>
+        <h2>Francisco Canaro</h2>
+
+        <img width="300px" heigth="300px" src="img/Francisco_canaro.jpg" alt="Francisco Canaro">
+
+        <p>
+            Nacido en 1888 en la ciudad de San José de Mayo, Uruguay, Francisco Canaro fue un
+            violinista uruguayo-argentino, quien también fue director de una orquesta de tango. 
+            Luchó por los derechos de los compositores en 1918 y ayudó a crear la Sociedad Argentina
+            de Autores y Compositores de Música.
+            Se estima que el número de 
+            Las grabaciones oscilan 
+            entre 3500 y 7000.
+        </p>
+    </section>
+
+</div>
+
+<div>
+    <section id="sobrenosotros">
+        <h2>Sobre nosotros</h2>
+
+        <p></p>
+    </section>
+</div>   
+
+</main>
+    <footer>
+        <p>&copy; 2024 Ritmos y Cantantes de América Latina. Todos los derechos reservados.</p>
+    </footer>
+</body>
+</html>

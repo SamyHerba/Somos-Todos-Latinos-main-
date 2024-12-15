@@ -1,0 +1,139 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+header {
+    text-align: center;
+    background: #e0453a;
+    color: white;
+    padding: 20px 0;
+}
+
+.header-img {
+    width: 50px;
+    margin-bottom: 10px;
+}
+
+nav ul {
+    background: #333;
+    color: white;
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    padding: 10px 0;
+    margin: 0;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+main {
+    padding: 20px;
+}
+
+section {
+    margin-bottom: 0px;
+    padding: 20px;
+}
+
+section img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+    margin: 1px
+}
+
+footer {
+    text-align: center;
+    padding: 10px 0;
+    background: #333;
+    color: white;
+}
+
+div {
+    background-color: #FAEF7A;
+    margin-top: 0px;
+}
+
+.barra-pesquisa {
+    background-color: #e0453a;
+    display: flex;
+    justify-content: center;
+    margin-top: 0px;
+}
+.input-pesquisa {
+    padding: 10px;
+    font-size: 16px;
+    width: 300px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+.botao-pesquisa {
+    padding: 10px 15px;
+    font-size: 16px;
+    border: none;
+    background-color: #276cb6;
+    color: white;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-left: 5px;
+}
+
+.francisco{
+    background-color: #58a2f1
+}
+
+h2{
+   font-family: Teko; 
+   font-size: 50px;
+}
+
+p{
+    font-size: large;
+    font-family: Roboto;
+}
+
+.carrossel {
+    position: relative;
+    max-width: 600px;
+    margin: auto;
+    overflow: hidden;
+}
+.imagens {
+    display: flex;
+    transition: transform 0.5s ease;
+    width: 100%;
+}
+.imagem {
+    min-width: 100%;
+}
+.botao {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: rgba(255, 255, 255, 0.8);
+    border: none;
+    cursor: pointer;
+    padding: 10px;
+}
+.botao-esquerda {
+    left: 10px;
+}
+.botao-direita {
+    right: 10px;
+}
